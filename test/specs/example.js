@@ -10,3 +10,21 @@
 // getAttribute();
 // getLocation();
 // getText();
+
+
+// isDisplayed();
+// isEnabled();
+// isDisplayedInViewport();
+// isClickable();
+
+// isFocused();
+// scrollIntoView();
+// saveScreenshot();
+
+// newWindow();
+// switchWindow();
+//getHtml(); // снаружи. 
+//getHtml(false);// внутри.
+//waitUntil();
+
+//nav a[href="/docs/api"]
