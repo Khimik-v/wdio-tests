@@ -1,0 +1,24 @@
+TC-01: Verify GitHub homepage loads correctly
+Precondition: Browser is open
+Steps: Navigate to https://github.com
+Expected: Page title contains "GitHub", header navigation is visible
+
+TC-02: Verify main navigation links are visible
+Precondition: User is on github.com
+Steps: Check presence of navigation links (Solutions, Open Source, Pricing)
+Expected: All main nav links are displayed in the header
+
+TC-03: Verify search bar is present and functional
+Precondition: User is on github.com
+Steps: Click search bar, type "webdriverio"
+Expected: Search input accepts text, suggestions dropdown appears
+
+TC-04: Verify search returns results for a valid query
+Precondition: User is on github.com
+Steps: Search for "webdriverio", press Enter
+Expected: Results page loads, contains repository results
+
+TC-05: Verify user profile page loads
+Precondition: User is on github.com
+Steps: Navigate to https://github.com/webdriverio
+Expected: Profile page loads, username "webdriverio" is displayed
