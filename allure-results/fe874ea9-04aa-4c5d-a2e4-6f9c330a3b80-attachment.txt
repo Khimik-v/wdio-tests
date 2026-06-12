@@ -1,0 +1,3 @@
+invalid selector: WebDriverError: invalid selector: Unable to locate an element with the xpath expression //*[@id="container"]/div[1]/header/ul/li[4]/a"] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@id="container"]/div[1]/header/ul/li[4]/a"]' is not a valid XPath expression.
+  (Session info: chrome=148.0.7778.168) when running "element" with method "POST"

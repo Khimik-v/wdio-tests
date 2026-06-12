@@ -11,6 +11,6 @@
     "allure-commandline": "^2.42.1"
   },
   "scripts": {
-    "wdio": "wdio run ./wdio.conf.js"
+    "test": "wdio run ./wdio.conf.js"
   }
 }
