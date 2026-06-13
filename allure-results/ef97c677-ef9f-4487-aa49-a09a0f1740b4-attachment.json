@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "/html/body/div[1]/footer/div[1]/div/section/a[2]"
+}
